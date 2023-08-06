@@ -103,7 +103,7 @@ for epoch in range(num_epochs):
   # Save its weights
   torch.save(model.state_dict(), 'model_weights.pth')
 
-  # Evaluation
+# Evaluation
 model.eval() # Change mode to eval
 
 loss_sum = 0
